@@ -12,8 +12,8 @@ inputs:
     required: true
 
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: 'nod24'
+  main: 'index.js'
 branding:
   icon: 'file-text'
   color: 'blue'
