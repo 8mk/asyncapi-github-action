@@ -24,15 +24,15 @@
     "test": "eslint index.js && jest"
   },
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "@asyncapi/avro-schema-parser": "^1.1.0",
-    "@asyncapi/parser": "^1.18.1"
+    "@actions/core": ">1.10.0",
+    "@asyncapi/avro-schema-parser": ">1.1.0",
+    "@asyncapi/parser": ">1.18.1"
   },
   "devDependencies": {
-    "@types/jest": "^27.5.1",
-    "@vercel/ncc": "^0.36.1",
-    "eslint": "^8.16.0",
-    "eslint-plugin-jest": "^26.2.2",
-    "jest": "^28.1.0"
+    "@types/jest": ">27.5.1",
+    "@vercel/ncc": ">0.36.1",
+    "eslint": ">8.16.0",
+    "eslint-plugin-jest": ">26.2.2",
+    "jest": ">28.1.0"
   }
 }
